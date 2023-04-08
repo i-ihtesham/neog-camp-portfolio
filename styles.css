@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 :root{
@@ -63,9 +64,6 @@ hr{
     border-bottom-left-radius: 1rem;
 }
 
-.link{
-    color: white;
-}
 
 .nav-pills{
     text-align: right;
@@ -77,6 +75,9 @@ hr{
 
 .link-active{
     font-weight: bold;
+}
+.navigation .link{
+    color: white;
 }
 
 /* header */
@@ -110,4 +111,17 @@ hr{
 .fluid-bg{
     background-color: aquamarine;
     margin-bottom: 1.1rem;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
 }
