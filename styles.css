@@ -95,3 +95,19 @@ hr{
     color: var(--gray-color);
     font-weight: bold;
 }
+
+/* section */
+
+.section{
+    padding: 2rem;
+    text-align: center;
+}
+
+.gray-bg{
+    background-color: blanchedalmond;    
+}
+
+.fluid-bg{
+    background-color: aquamarine;
+    margin-bottom: 1.1rem;
+}
