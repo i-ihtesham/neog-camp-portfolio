@@ -4,100 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My component library</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Ihtesham's Component library</h1>
-    <hr>
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <p>This is a paragraph</p>
-    <small>This is for small text</small>
-
-    <hr>
-    <h2>@Container</h2>
-    <h3>Fluid container</h3>
-    <div class="container">This is a fluid container which will go till end of page</div>
-    <h3>Center container</h3>
-    <div class="container container-center">This is a center container.</div>
-
-    <hr>
-    <h2>@links</h2>
-    <a href="/" class="link link-primary">Primary link</a>
-    <a href="/" class="link link-secondary">Secondary link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-    <p>lists without bullets</p>
-    <ul class="list-non-bullet">
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul class="list-non-bullet">
-        <li class="list-style-inline">Inline item one</li>
-        <li class="list-style-inline">Inline item two</li>
-        <li class="list-style-inline">Inline item three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-        <li>milk</li>
-        <li>bread</li>
-        <li>eggs</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
     <nav class="navigation container-center">
-        <div class="nav-brand">MyBrand</div>
+        <div class="nav-brand">Mohammed Ihtesham</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-style-inline">
-                <a href="/" class="link link-active">home</a>
+                <a href="index.html" class="link link-active">Home</a>
             </li>
             <li class="list-style-inline">
-                <a href="/" class="link">projects</a>
+                <a href="projects.html" class="link">Projects</a>
             </li>
             <li class="list-style-inline">
-                <a href="/" class="link">about</a>
+                <a href="blogs.html" class="link">Blog</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-    <h2>@header</h2>
     <header class="hero">
         <img class="hero-img" src="image/hero.svg" alt="">
-        <h1 class="hero-head">Hi am <span style="color: var(--primary-color);">Ihtesham</span> working to be a Web developer</h1>
+        <h1 class="hero-head">Hi am <span style="color: var(--primary-color);">Ihtesham</span> aspiring to be a Web developer</h1>
     </header>
 
-    <hr>
-    <h2>@section</h2>
     <section class="section container-center fluid-bg">
-        <h3>fluid section</h3>
-        <p>this will have white background</p>
+        <h3>Technologies</h3>
+        <p>I am familiar with HTML, CSS, Javascript and ReactJS</p>
     </section>
 
     <section class="section container-center gray-bg">
-        <h3>center section</h3>
-        <p>this will have gray background</p>
+        <h3>Projects</h3>
+        <p>I like to showcase my projects and you can see them online</p>
+        <a href="projects.html" class="link link-primary">See projects</a>
     </section>
 
-    <hr>
+    <section class="section container-center fluid-bg">
+        <h3>Blogs</h3>
+        <p>I document my learning, click the below button to read blogs</p>
+        <a href="blogs.html" class="link link-primary">Read blogs</a>
+    </section>
 
     <footer class="footer">
-        <h2>@footer</h2>
-        <h3>small heading inside footer</h3>
+        <h3 class="footer-header">Social Media Presence</h3>
         <ul class="list-non-bullet">
-            <li class="list-style-inline"><a href="/" class="link">link1</a></li>
-            <li class="list-style-inline"><a href="/" class="link">link2</a></li>
-            <li class="list-style-inline"><a href="/" class="link">link3</a></li>
+            <li class="list-style-inline"><a href="/" class="link">github</a></li>
+            <li class="list-style-inline"><a href="/" class="link">linkedin</a></li>
         </ul>
     </footer>
 </body>

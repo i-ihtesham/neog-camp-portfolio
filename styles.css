@@ -3,6 +3,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    background-color: aliceblue;
 }
 
 :root{
@@ -40,14 +41,15 @@ hr{
 }
 
 .link-secondary{
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    color: rgb(218, 11, 11);
+    border: 1px solid var(--gray-color);
 }
 
 /* lists */
 
 .list-non-bullet{
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .list-style-inline{
@@ -110,6 +112,7 @@ hr{
 
 .fluid-bg{
     background-color: aquamarine;
+    margin-top: 1.1rem;
     margin-bottom: 1.1rem;
 }
 
@@ -124,4 +127,9 @@ hr{
 
 .footer .link{
     color: white;
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size: large;
 }
