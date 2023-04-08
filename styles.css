@@ -6,6 +6,7 @@ body{
 
 :root{
     --primary-color : #86efac;
+    --gray-color : #f87171;
 }
 
 hr{
@@ -75,5 +76,22 @@ hr{
 }
 
 .link-active{
+    font-weight: bold;
+}
+
+/* header */
+
+.hero{
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero-head{
+    color: var(--gray-color);
     font-weight: bold;
 }
