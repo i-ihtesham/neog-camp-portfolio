@@ -166,6 +166,11 @@ background-image: linear-gradient(to right, #fbc2eb, #a18cd1);
     color: #fff;
 }
 
+.footer .link:hover{
+    background-color: var(--button-hover-color);
+    color: var(--primary-color);
+}
+
 .footer-header{
     font-weight: bold;
     font-size: large;
